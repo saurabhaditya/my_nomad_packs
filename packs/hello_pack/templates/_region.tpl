@@ -1,0 +1,5 @@
+[[- define "region" -]]
+[[- if not  (eq .hello_pack.region "") -]]
+region = [[ .hello_pack.region | quote]]
+[[- end -]]
+[[- end -]]
